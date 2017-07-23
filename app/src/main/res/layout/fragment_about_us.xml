@@ -1,0 +1,101 @@
+<RelativeLayout
+             xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:card_view="http://schemas.android.com/apk/res-auto"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="com.example.rujul.breakster.AboutUs"
+    android:id="@+id/frag_cont">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="31dp"
+        android:text=" ABOUT US"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="37dp"
+        android:text=" ___________"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:text="We are CyberSurf - "
+        android:textColor="#94990000"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+
+    <TextView
+        android:id="@+id/para1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="An Ahmedabad based web &amp; digital agency  specializing in creating value for businesses by nurturing digital experience for their customers."
+        android:textColor="#94990000"
+        android:layout_marginTop="63dp"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/para2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Cybersurf aims at strengthening the bond between businesses and their customers by providing them with easy-to-use &amp; user-friendly applications as well as web applications.
+"
+        android:textColor="#94990000"
+        android:layout_below="@+id/para1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"/>
+    <TextView
+        android:id="@+id/para3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can know more about us here: "
+        android:textColor="#94990000"
+        android:layout_below="@+id/para2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cloudupload"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="version"
+        android:textColor="#94990000"/>
+
+</RelativeLayout>

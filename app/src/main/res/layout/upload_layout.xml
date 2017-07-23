@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/cloudupload"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="28dp"
+        android:layout_marginTop="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/select_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select"
+        tools:layout_editor_absoluteY="215dp"
+        tools:layout_editor_absoluteX="148dp"
+        android:layout_below="@+id/user_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Enter Category Name "
+        tools:layout_editor_absoluteY="293dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        android:layout_below="@+id/select_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+
+    <Button
+        android:id="@+id/upload_bttn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Upload"
+        tools:layout_editor_absoluteY="417dp"
+        tools:layout_editor_absoluteX="42dp"
+        android:layout_marginBottom="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/etTitle"
+        android:layout_alignStart="@+id/etTitle" />
+
+    <Button
+        android:id="@+id/View"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="View"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="417dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/upload_bttn"
+        android:layout_alignStart="@+id/upload_bttn"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/etTitle"
+        android:layout_marginTop="12dp"
+        android:text="Click Here To Know More"
+        android:textColor="@android:color/black"/>
+
+</RelativeLayout>
